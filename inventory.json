@@ -1,0 +1,31 @@
+{
+  "cars": [
+    {
+      "make": "Volkswagon",
+      "model": "New Beetle",
+      "year": "2004",
+      "price": "3000",
+      "color": "Blue",
+      "purchased": false,
+      "description": "Please buy my awful money pit of a car.  It's literally falling apart."
+    },
+    {
+      "make": "Chevrolet",
+      "model": "Tahoe",
+      "year": "1996",
+      "price": "100",
+      "color": "Brownish",
+      "purchased": false,
+      "description": "Beautful keywork in nasty brownish-purple paint.  Runs surprisingly well."
+    },
+    {
+      "make": "Ford",
+      "model": "Escort",
+      "year": "2002",
+      "price": "4500",
+      "color": "Dark Blue",
+      "purchased": false,
+      "description": "Crank windows and tape deck included.  Has been in multiple very small fender benders."
+    }
+  ]
+}
