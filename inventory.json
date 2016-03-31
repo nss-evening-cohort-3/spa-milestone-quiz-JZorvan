@@ -14,7 +14,7 @@
       "model": "Tahoe",
       "year": "1996",
       "price": "100",
-      "color": "Brownish",
+      "color": "Maroon",
       "purchased": false,
       "description": "Beautful keywork in nasty brownish-purple paint.  Runs surprisingly well."
     },
@@ -23,8 +23,8 @@
       "model": "Escort",
       "year": "2002",
       "price": "4500",
-      "color": "Dark Blue",
-      "purchased": false,
+      "color": "Navy",
+      "purchased": true,
       "description": "Crank windows and tape deck included.  Has been in multiple very small fender benders."
     }
   ]

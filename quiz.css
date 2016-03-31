@@ -1,11 +1,4 @@
-.blue-border {
-  border: 2px solid Blue;
-}
-
-.darkblue-border {
-  border: 2px solid DarkBlue;
-}
-
-.brown-border {
-  border: 2px solid SaddleBrown;
+/* Gives the targeted car a yellow background */
+.targeted {
+  background-color: yellow;
 }

@@ -5,13 +5,38 @@
   <title>Car Lot | Single Page Application Quiz</title>
   <meta charset="utf-8">
   <link rel="stylesheet" type="text/css" href="quiz.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 </head>
 <body>
 
-<div id="car-garage"></div>
+<div class="container">
+<!-- Start of Nav Bar -->
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <div class="navbar-header">
+    <h1>Janelle's Used Car Inventory</h1>
+  <!-- Start of Input Form -->
+  <form class="form-inline" onsubmit = "return false">
+    <div class="form-group">
+      <label for="text-field">Enter New Description:</label>
+      <input type="text" class="form-control" id="text-field">
+    </div>
+    <!-- Button that does nothing -->
+    <button class="btn btn-default">Change Description</button>
+  </form>
 
-<!-- <script type="text/javascript" src="quiz.js"></script> -->
-<script type="text/javascript" src="CarLot.js"></script>
+    </div>
+  </div>
+</nav>
+<!-- Inventory Area -->
+<div id="car-garage" class="row"></div>
+
+</div>
+
+<!-- JS -->
+<script type="text/javascript" src="populate.js"></script>
+<script type="text/javascript" src="eventHandlers.js"></script>
+<script type="text/javascript" src="carChangers.js"></script>
 <script type="text/javascript" src="quiz.js"></script>
 </body>
 </html>
