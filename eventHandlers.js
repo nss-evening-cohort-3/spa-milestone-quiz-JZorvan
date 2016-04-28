@@ -8,9 +8,9 @@ var CarLot = (function(originalCarLot) {
       carCard[i].addEventListener("click", function (e) {
         // Sets the target of the click to be the nearest car element
         let clickTarget = e.target.closest("car");
-        // Calls click events  
+        // Calls click events
         originalCarLot.removeTargeting();
-        originalCarLot.addTargeting(clickTarget);
+        originalCarLot.addTargeting(clickTarget, "yellow");
       });
     };
   };
